@@ -1,6 +1,11 @@
+string1 ="mystring" #initialising string
+letter= input("enter the character")
 #code this method for the class
-def checkForLetter(phrase, letter):
-    #search phrase for letter - uppercase or lower
-
-    #if letter is not found in phrase, return false
-    return letter.casefold() in phrase
+def checkForLetter(string1, letter):
+    if letter in string1:
+        print("found!!)
+    else:
+        print("not found")
+              
+result=checkForLetter(string1,letter)
+   
